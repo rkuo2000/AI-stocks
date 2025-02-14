@@ -91,6 +91,7 @@ R = D / P + G
 
 ---
 ## Ch3. 股市資料蒐集、爬蟲與搭建資料庫
+[ch03_stock_crawler.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch03_stock_crawler.ipynb)<br>
 
 ### 證交所資料爬蟲
 進入證交所網址：[https://www.twse.com.tw/zh/index.html](https://www.twse.com.tw/zh/index.html)<br>
@@ -128,7 +129,7 @@ R = D / P + G
 * 查詢表格資料
 
 ---
-## Ch4.
+## Ch4.讓 AI 計算技術指標及資料視覺化
 
 
 
