@@ -147,7 +147,39 @@ Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產
 
 ---
 ## Ch4.讓 AI 計算技術指標及資料視覺化
+[ch04_stock_index.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch04_stock_index.ipynb)<br>
 
+### 技術指標公式太複雜？讓 AI 自動化計算
+
+### 讓 AI 自動生成技術指標程式碼
+* 計算移動平均線(MA)
+* 計算 MACD
+* 計算 RSI
+* 計算布林通道
+* 能量潮指標 (On-Balance Volumem, OBV)
+
+### 讓 AI 自動統整 Dataframe
+* 將日頻資料轉換成月頻資料
+
+---
+### 資料視覺化
+
+#### 使用 matplotlib 畫出收盤價的折線圖
+* 加入成交量
+* 加入技術指標
+* 繪製 K 線圖：mplfinance
+* 選擇資料時間
+* 用 mplfinance 繪製 K 線圖
+* 加入繪圖設定
+* 加入子圖
+
+#### plotly 互動式圖表
+* 繪製互動式 K 線圖
+* 移除非交易日空值
+* 加入懸停十字軸
+* 加入技術指標
+* 寫成函式
+* 執行函式 `plotly_stock("2317", start='2022-01-01', end= None, indicator='布林通道及MACD')`
 
 
 
