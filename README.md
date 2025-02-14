@@ -10,7 +10,7 @@
 * 雞蛋不能放在同一個籃子裡？
 ![](https://i0.wp.com/blog.growin.tv/wp-content/uploads/2020/12/02-2.png?resize=768%2C686&ssl=1)
 
-投資個股的總風險可分成: 系統性風險（systematic risk) 與 非系統性風險 (unsystematic risk)<br>
+投資個股的總風險可分成: **系統性風險（systematic risk)** 與 **非系統性風險 (unsystematic risk)** <br>
 
 Blog: [系統性風險全面解析：與非系統性風險有何不同？投資者必讀！](https://www.top1markets.com/tw/insights/Stocks/systematic-risk)<br>
 
