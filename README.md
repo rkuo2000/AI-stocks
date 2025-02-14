@@ -90,6 +90,23 @@ R = D / P + G
 **[從眾行為(Conformity)](https://zh.wikipedia.org/zh-tw/%E5%BE%9E%E7%9C%BE%E6%95%88%E6%87%89)** <br>
 
 ---
+## Ch2. 大型語言模型界面
+
+### [OpenAI](https://openai.com/)
+* [Documentations](https://platform.openai.com/docs/overview)
+`pip install openai` <br>
+* [API reference](https://platform.openai.com/docs/api-reference/authentication)
+
+---
+### [Google AI Studio](https://aistudio.google.com)
+
+[Gemini API Key](https://aistudio.google.com/apikey)<br>
+[Gemini 模型](https://ai.google.dev/gemini-api/docs/models/gemini?hl=zh-tw)<br>
+[實驗版模型](https://ai.google.dev/gemini-api/docs/models/experimental-models?hl=zh-tw)<br>
+
+Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產生模型在回應過程中經歷的「思考過程」。因此，Flash Thinking 模型的回覆比 Gemini 2.0 Flash 實驗模型更能發揮推理能力。<br>
+
+---
 ## Ch3. 股市資料蒐集、爬蟲與搭建資料庫
 [ch03_stock_crawler.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch03_stock_crawler.ipynb)<br>
 
@@ -130,7 +147,6 @@ R = D / P + G
 
 ---
 ## Ch4.讓 AI 計算技術指標及資料視覺化
-
 
 
 
