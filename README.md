@@ -1,6 +1,8 @@
 # AI-stocks
-[最強 AI 投資分析：打造自己的股市顧問機器人，股票趨勢分析×年報解讀×選股推薦×風險管理](https://www.tenlong.com.tw/products/9789863127727)
 ![](https://cf-assets2.tenlong.com.tw/products/images/000/195/999/webp/9789863127727_%E5%A4%A9%E7%93%8F.webp?1699843474)
+
+[最強 AI 投資分析：打造自己的股市顧問機器人，股票趨勢分析×年報解讀×選股推薦×風險管理](https://www.tenlong.com.tw/products/9789863127727)
+
 
 ## 1.股票分析基礎 
 
