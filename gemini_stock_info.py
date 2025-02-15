@@ -10,8 +10,6 @@ import datetime as dt
 from bs4 import BeautifulSoup
 import pandas as pd
 
-GEMINI_API_KEY = ' '
-
 class StockInfo():
   # 取得全部股票的股號、股名
   def stock_name(self):
@@ -36,9 +34,9 @@ class StockInfo():
       return name_df.set_index('股號').loc[stock_id, '股名']
 
 class StockAnalysis():
-  def __init__(self,openai_api_key):
+  def __init__(self, api_key):
     # 初始化 OpenAI API 金鑰
-    self.client = OpenAI(api_key=userdata.get('GEMINI_API_KEY'),
+    self.client = OpenAI(api_key=api_key,
                          base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
     self.stock_info = StockInfo()  # 實例化 StockInfo 類別
     self.name_df = self.stock_info.stock_name()
