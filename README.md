@@ -244,6 +244,8 @@ print(reply)
 
 ---
 ## Ch8. 建構投資組合：讓 AI 輔助選股
+[ch08_stock_picking.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch08_stock_picking.ipynb)<br>
+
 * 下載資料庫
 * 檢視資料表格式
 * AI 自動化選股機器人
