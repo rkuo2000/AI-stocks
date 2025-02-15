@@ -238,6 +238,16 @@ print(reply)
 ## Ch6. 個股分析機器人
 [ch06_stock_bot.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch06_stock_bot.ipynb)<br>
 
+* 取得股價資料
+* 取得基本面資料
+* 取得新聞資料
+* 爬取股號、股名對照表
+* 取得股票名稱
+* 建構 ChatGPT 模型
+* 大盤趨勢報告
+* 個股分析報告
+* 雞蛋水餃股也能做分析
+  
 ---
 ## Ch7. 年報問答機器人
 [ch07_annual_reporter.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch07_annual_reporter.ipynb)<br>
