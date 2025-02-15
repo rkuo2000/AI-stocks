@@ -236,7 +236,7 @@ print(reply)
 
 ---
 ## Ch6. 個股分析機器人
-[ch06_stock_bot.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch06_stock_bot.ipynb)<br>
+[ch06_stock_bot_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch06_stock_bot_gemini.ipynb)<br>
 
 * 取得股價資料
 * 取得基本面資料
