@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 
 class StockDB:
-  def __init__(self, db_path='/content/drive/MyDrive/StockGPT/stock.db', db_start_date='2015-01-01'):
+  def __init__(self, db_path='./stock.db', db_start_date='2015-01-01'):
     exist = os.path.exists(db_path) #是否已建立資料庫
     self.db_path = db_path
     self.db_start_date = db_start_date
