@@ -1,5 +1,5 @@
 # pip install langchain langchain-community
-# pip install faiss-gpu
+# pip install faiss-cpu
 #
 import os
 import time
