@@ -250,8 +250,14 @@ print(reply)
   
 ---
 ## Ch7. 年報問答機器人
+**[年報下載網站](https://doc.twse.com.tw/server-java/t57sb01)** <br>
+
 [ch07_annual_reporter.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch07_annual_reporter.ipynb)<br>
 
+* 建立函式-取得年報
+* 年報問答RAG
+* 年報總結與分析
+  
 ---
 ## Ch8. 建構投資組合：讓 AI 輔助選股
 [ch08_stock_picking.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch08_stock_picking.ipynb)<br>
