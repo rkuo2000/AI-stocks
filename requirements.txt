@@ -6,7 +6,7 @@ langchain-community
 langchain-google-genai
 httpx==0.27.2
 Typing-extensions==4.11.0
-pdfplumber==0.10.2
-tiktoken==0.5.1
+pdfplumber
+tiktoken
 yfinance==0.2.31
 cohere==4.34
