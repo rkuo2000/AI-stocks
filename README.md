@@ -181,6 +181,68 @@ Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產
 * 寫成函式
 * 執行函式 `plotly_stock("2317", start='2022-01-01', end= None, indicator='布林通道及MACD')`
 
+---
+## Ch5. AI技術指標回測
+[ch05_stock_backtesting.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch05_stock_backtesting.ipynb)<br>
+
+### 回測(Backtesting)
+回測也稱為回溯測試，是指用歷史數據測試某種交易策略的過去表現，觀察如果時間回溯到過去執行同樣的策略，會產生什麼結果，藉此評估一個策略在未來是否可行，以及提前了解可能的風險。<br>
+如果回測後發現，一個策略在過去按照一樣的方法執行，得到的成果很好，那也許它有機會繼續在未來創造好的表現 (但並非絕對)。<br>
+而一個策略，回測發現它在過去表現得很差，代表存在某些缺陷，我們就不會採用這個策略，因為對它未來的表現不會有信心。<br>
+
+回測是把自己想的交易方法，透過歷史數據進行測試，藉由查看回測結果(過去表現)，了解一個交易方法的可行性和有效性。<br>
+理論上，一個未來能賺錢的投資策略，至少要在過去也能賺錢，回測就是驗證的方式。<br>
+策略經過歷史模擬，更能歷久不衰，獲取超額報酬！<br>
+
+---
+### [FinLab](https://ai.finlab.tw/)
+FinLab 提供台股 Python 量化交易最前瞻的技術、資料庫、演算法，幫助您開發選股策略，獲取超額報酬：<br>
+* 完整的股價、營收、籌碼、財報資料庫
+* 超多範例，快速程式碼開發策略
+* 策略儀表版
+
+---
+### 回測結果分析
+
+```
+stats = ai_backtest(stock_id="2330.TW",
+           period="5y",
+           user_msg="MACD",
+           add_msg="請設置10%的停損點與20%的停利點")
+reply = backtest_analysis(stats)
+print(reply)
+```
+
+---
+### 比較多個策略
+
+```
+# 策略1:MACD+停利停損
+stats1 = ai_backtest(stock_id="2330.TW", period="5y",
+            user_msg="MACD",
+            add_msg="請設置10%的停損點與20%的停利點")
+# 策略2:SMA
+stats2 = ai_backtest(stock_id="2330.TW", period="5y",
+            user_msg="SMA",
+            add_msg="無")
+# 策略3:RSI+停利停損
+stats3 = ai_backtest(stock_id="2330.TW", period="5y",
+            user_msg="RSI",
+            add_msg="請設置10%的停損點與20%的停利點")
+
+reply = backtest_analysis(stats1, stats2, stats3)
+print(reply)
+```
+
+---
+## Ch6. 個股分析機器人
+[ch06_stock_bot.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch06_stock_bot.ipynb)<br>
+
+---
+## Ch7. 年報問答機器人
+[ch07_annual_reporter.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch07_annual_reporter.ipynb)<br>
+
+---
 
 
 
