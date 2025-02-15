@@ -21,12 +21,10 @@ from langchain.chains import LLMChain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
-GEMINI_API_KEY = ''
-
 class PdfLoader:
-    def __init__(self,openai_api_key):       
+    def __init__(self, api_key):       
         self.llm = ChatGoogleGenerativeAI(
-            api_key = GEMINI_API_KEY,
+            api_key = api_key,
             model="gemini-2.0-flash",
             temperature=0,
             max_tokens=None,
