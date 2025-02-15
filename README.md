@@ -257,6 +257,7 @@ print(reply)
 
 ---
 ## Ch9. 讓 AI 評估投資組合風險 
+[ch09_portfolio_risk.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch09_portfolio_risk.ipynb)<br>
 
 ### 資金管理
 * 單次賭局的期望資產
