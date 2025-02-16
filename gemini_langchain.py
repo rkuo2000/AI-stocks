@@ -1,4 +1,4 @@
-# pip install langchain langchain-community
+# pip install langchain langchain-community langchain-google-genai
 # pip install faiss-cpu
 #
 import os
@@ -11,10 +11,11 @@ from bs4 import BeautifulSoup
 
 from langchain_community.document_loaders import PDFPlumberLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores.faiss import FAISS
 
-from langchain.chat_models import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
+
+from langchain_community.vectorstores.faiss import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 
@@ -109,10 +110,10 @@ class PdfLoader:
     def pdf_loader(self,file,size,overlap):
         loader = PDFPlumberLoader(file)
         doc = loader.load()
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=size,
-                                                chunk_overlap=overlap)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=size, chunk_overlap=overlap)
         new_doc = text_splitter.split_documents(doc)
-        db = FAISS.from_documents(new_doc, OpenAIEmbeddings())
+        db = FAISS.from_documents(new_doc, GoogleGenerativeAIEmbeddings(model="models/embedding-001")) 
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
         file_name = file.split("/")[-1].split(".")[0]
         db_file = './DB/'
         if not os.path.exists(db_file):
