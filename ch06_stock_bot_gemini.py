@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 """### 2️⃣ 輸入 Gemini API KEY"""
 
 #from google.colab import userdata
-GEMINI_API_KEY = 'AIzaSyCKHTo1WuzQgUaFV6-csjTN-armJwjRIQo'
+GEMINI_API_KEY = ''
 
 client = OpenAI(
     api_key=GEMINI_API_KEY,
