@@ -190,7 +190,7 @@ Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產
 
 ---
 ## Ch5. AI技術指標回測
-[ch05_stock_backtesting.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch05_stock_backtesting.ipynb)<br>
+[ch05_stock_backtesting_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch05_stock_backtesting_gemini.ipynb)<br>
 
 ### 回測(Backtesting)
 回測也稱為回溯測試，是指用歷史數據測試某種交易策略的過去表現，觀察如果時間回溯到過去執行同樣的策略，會產生什麼結果，藉此評估一個策略在未來是否可行，以及提前了解可能的風險。<br>
