@@ -154,7 +154,7 @@ Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產
 
 ---
 ## Ch4.讓 AI 計算技術指標及資料視覺化
-[ch04_stock_index.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch04_stock_index.ipynb)<br>
+[ch04_stock_index_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch04_stock_index_gemini.ipynb)<br>
 
 ### 技術指標公式太複雜？讓 AI 自動化計算
 
