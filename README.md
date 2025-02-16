@@ -107,6 +107,13 @@ R = D / P + G
 Gemini 2.0 Flash Thinking 模型是一種實驗模型，經過訓練後，可產生模型在回應過程中經歷的「思考過程」。因此，Flash Thinking 模型的回覆比 Gemini 2.0 Flash 實驗模型更能發揮推理能力。<br>
 
 ---
+## Cloud platform
+
+### [Kaggle](https://www.kaggle.com/)
+
+### [Colab](https://colab.research.google.com/)
+
+---
 ## Ch3. 股市資料蒐集、爬蟲與搭建資料庫
 [ch03_stock_crawler.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch03_stock_crawler.ipynb)<br>
 
