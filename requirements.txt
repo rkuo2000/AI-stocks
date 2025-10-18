@@ -7,5 +7,5 @@ httpx
 Typing-extensions
 pdfplumber
 tiktoken
-yfinance==0.2.31
+yfinance
 cohere
