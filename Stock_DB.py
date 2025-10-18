@@ -303,23 +303,24 @@ class StockDB:
   # 日頻股價資料
   def stock_price(self, stock_list, start_date):
     # 下載資料
-    df = yf.download(stock_list, start_date)
+    #df = yf.download(stock_list, start_date)
+    df = yf.Ticker(stock_id).history(start=start_date)
 
     if len(df) > 0: # 如果有下載到資料
         # 轉換資料
         data_list = []
         for stock in stock_list:
             stock_df = df.xs(stock, axis=1, level=1).copy()
-            stock_df['Stock_Id'] = stock.replace('.TW', '')
+            stock_df['Stock_id'] = stock.replace('.TW', '')
             data_list.append(stock_df)
 
         yf_df = pd.concat(data_list).reset_index()
 
         # 重新排列欄位
-        yf_df = yf_df[['Date', 'Stock_Id', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']]
+        yf_df = yf_df[['Date', 'Stock_id', 'Open', 'High', 'Low', 'Close', 'Volume']]
         yf_df.rename(columns={  # 修改欄位名稱以便對應到資料表
             'Stock_Id':'股號','Date':'日期','Open':'開盤價','High':'最高價','Low':'最低價',
-            'Close':'收盤價', 'Adj Close':'還原價','Volume':'成交量',}, inplace=True)
+            'Close':'收盤價','Volume':'成交量',}, inplace=True)
         # ↓將TimeStamp資料改為如 "2022-02-03" 的字串
         yf_df['日期'] = yf_df['日期'].dt.strftime('%Y-%m-%d')
 
@@ -480,3 +481,4 @@ class StockDB:
       print(result)
 
     print("=" * 40)
+
