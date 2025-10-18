@@ -283,7 +283,12 @@ print(reply)
 * 建立函式-取得年報
 * 年報問答RAG
 * 年報總結與分析
-  
+
+---
+### 財報機器人 Apps
+**[Gemini build](https://aistudio.google.com/apps)**: `財報機器人：輸入台灣股票代號及年份，按鍵打開 https://doc.twse.com.tw/server-java/t57sb01 網頁，上傳年報 pdf, 然後進行財報之問答與分析`<br>
+![](https://github.com/rkuo2000/AI-stocks/blob/main/images/annual_report_bot.png?raw=true)
+
 ---
 ## Ch8. 建構投資組合：讓 AI 輔助選股
 [ch08_stock_picking.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch08_stock_picking.ipynb)<br>
