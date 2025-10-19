@@ -274,7 +274,7 @@ print(reply)
 * 個股分析報告
 * 雞蛋水餃股也能做分析
 ---
-### [AI股票分析師(AI Stock Analyst](https://ai.studio/apps/drive/15h6gss2NLZeahDZHuX67eww1SiC_70Xo)
+### [AI股票分析師](https://ai.studio/apps/drive/15h6gss2NLZeahDZHuX67eww1SiC_70Xo)
 `https://aistudio.google.com/apps`<br>
 **Prompt**: `AI股票分析師: 輸入股票代號, 分別從鉅亨網抓取新聞 json_data = requests.get(f'https://ess.api.cnyes.com/ess/api/v1/news/keyword?q={stock_name}&limit=5&page=1').json(),由 yfinance 獲取基本面資料及股價資訊 df = yf.Ticker(stock_id).history(start=start)`
 ![](https://github.com/rkuo2000/AI-stocks/blob/main/images/AI_Stock_Analyst.png?raw=true)
@@ -290,7 +290,7 @@ print(reply)
 * 年報總結與分析
 
 ---
-### 財報機器人 https://aistudio.google.com/apps](https://ai.studio/apps/drive/16bUHToD_mTgp_HrlIKPSZQ5AvzkxSzyW)
+### [財報機器人](https://ai.studio/apps/drive/16bUHToD_mTgp_HrlIKPSZQ5AvzkxSzyW)
 `https://aistudio.google.com/apps`<br>
 **Prompt**: `財報機器人：輸入台灣股票代號及年份，按鍵打開 https://doc.twse.com.tw/server-java/t57sb01 網頁，上傳年報 pdf, 然後進行財報之問答與分析`<br>
 ![](https://github.com/rkuo2000/AI-stocks/blob/main/images/Financial_Report_Bot.png?raw=true)
