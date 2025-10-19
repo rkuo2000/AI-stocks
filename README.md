@@ -3,7 +3,7 @@
 
 [最強 AI 投資分析：打造自己的股市顧問機器人，股票趨勢分析×年報解讀×選股推薦×風險管理](https://www.tenlong.com.tw/products/9789863127727)
 
-
+---
 ## [CH1.股票分析基礎](https://github.com/rkuo2000/AI-stocks/blob/main/CH1_%E8%82%A1%E7%A5%A8%E5%88%86%E6%9E%90%E5%9F%BA%E7%A4%8E%20.md)
 
 ## [CH2. 大型語言模型界面](https://github.com/rkuo2000/AI-stocks/blob/main/CH2_%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%95%8C%E9%9D%A2.md)
