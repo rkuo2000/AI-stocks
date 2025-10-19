@@ -4,11 +4,11 @@
 [最強 AI 投資分析：打造自己的股市顧問機器人，股票趨勢分析×年報解讀×選股推薦×風險管理](https://www.tenlong.com.tw/products/9789863127727)
 
 
-## [Ch1.股票分析基礎](https://github.com/rkuo2000/AI-stocks/blob/main/CH1_%E8%82%A1%E7%A5%A8%E5%88%86%E6%9E%90%E5%9F%BA%E7%A4%8E%20.md)
+## [CH1.股票分析基礎](https://github.com/rkuo2000/AI-stocks/blob/main/CH1_%E8%82%A1%E7%A5%A8%E5%88%86%E6%9E%90%E5%9F%BA%E7%A4%8E%20.md)
 
-## [Ch2. 大型語言模型界面](https://github.com/rkuo2000/AI-stocks/blob/main/CH2_%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%95%8C%E9%9D%A2.md)
+## [CH2. 大型語言模型界面](https://github.com/rkuo2000/AI-stocks/blob/main/CH2_%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%95%8C%E9%9D%A2.md)
 
-## Ch3. 股市資料蒐集、爬蟲與搭建資料庫
+## CH3. 股市資料蒐集、爬蟲與搭建資料庫
 [ch03_stock_crawler.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch03_stock_crawler.ipynb)<br>
 
 ### 證交所資料爬蟲
@@ -47,7 +47,7 @@
 * 查詢表格資料
 
 ---
-## Ch4.讓 AI 計算技術指標及資料視覺化
+## CH4.讓 AI 計算技術指標及資料視覺化
 [ch04_stock_index_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch04_stock_index_gemini.ipynb)<br>
 
 ### 技術指標公式太複雜？讓 AI 自動化計算
@@ -83,7 +83,7 @@
 * 執行函式 `plotly_stock("2317", start='2022-01-01', end= None, indicator='布林通道及MACD')`
 
 ---
-## Ch5. AI技術指標回測
+## CH5. AI技術指標回測
 [ch05_stock_backtesting_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch05_stock_backtesting_gemini.ipynb)<br>
 
 ### 回測(Backtesting)
@@ -136,7 +136,7 @@ print(reply)
 ```
 
 ---
-## Ch6. 個股分析機器人
+## CH6. 個股分析機器人
 [ch06_stock_bot_gemini.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch06_stock_bot_gemini.ipynb)<br>
 
 * 取得股價資料
@@ -156,7 +156,7 @@ print(reply)
 ![](https://github.com/rkuo2000/AI-stocks/blob/main/images/AI_Stock_Analyst.png?raw=true)
 
 ---
-## Ch7. 年報問答機器人
+## CH7. 年報問答機器人
 **[年報下載網站](https://doc.twse.com.tw/server-java/t57sb01)** <br>
 
 [ch07_annual_reporter.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch07_annual_reporter.ipynb)<br>
@@ -172,7 +172,7 @@ print(reply)
 ![](https://github.com/rkuo2000/AI-stocks/blob/main/images/Financial_Report_Bot.png?raw=true)
 
 ---
-## Ch8. 建構投資組合：讓 AI 輔助選股
+## CH8. 建構投資組合：讓 AI 輔助選股
 [ch08_stock_picking.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch08_stock_picking.ipynb)<br>
 
 * 下載資料庫
@@ -187,7 +187,7 @@ print(reply)
 * 年報分析報告評分排序
 
 ---
-## Ch9. 讓 AI 評估投資組合風險 
+## CH9. 讓 AI 評估投資組合風險 
 [ch09_portfolio_risk.ipynb](https://github.com/rkuo2000/AI-stocks/blob/main/ch09_portfolio_risk.ipynb)<br>
 
 ### 資金管理
