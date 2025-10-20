@@ -20,15 +20,18 @@
 
 `pip install openai` <br>
 
+---
 #### [Google AI Studio](https://aistudio.google.com)
 * [Gemini API Key](https://aistudio.google.com/apikey)<br>
 
+---
 #### [Gemini 模型](https://ai.google.dev/gemini-api/docs/models?hl=zh-tw)
 * **Gemini 2.5 Pro** - 思考模型，能夠推論程式碼、數學和 STEM 領域的複雜問題，也能使用長篇脈絡資料分析大型資料集、程式碼集和文件。<br>
 * **Gemini-2.5-flash** - 在性價比方面表現最佳，提供全方位功能。2.5 Flash 最適合用於大規模處理、低延遲、需要思考的大量工作，以及代理程式應用實例。<br>
 
 `pip install google.generativeai`<br>
 
+---
 #### [LM Studio](https://lmstudio.ai/)
 Local AI on your PC<br>
 ![](https://github.com/rkuo2000/AI-stocks/blob/main/images/LM_studio_server.png?raw=true)
