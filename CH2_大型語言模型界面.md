@@ -31,6 +31,9 @@
 
 #### [LM Studio](https://lmstudio.ai/)
 Local AI on your PC<br>
+![](https://github.com/rkuo2000/AI-stocks/blob/main/images/LM_studio_server.png?raw=true)
+
+![](https://github.com/rkuo2000/AI-stocks/blob/main/images/LM_studio_client.png?raw=true)
 
 ---
 ### Google Gemini Build Apps
